@@ -1,0 +1,21 @@
+<form action="{{ action }}" method="post"> 
+  <input type="hidden" name="req_time" value="{{ req_time }}" />
+  <input type="hidden" name="merchant_id" value="{{ merchant_id }}" />
+  <input type="hidden" name="tran_id" value="{{ tran_id }}" />
+  <input type="hidden" name="firstname" value="{{ firstname }}" />
+  <input type="hidden" name="lastname" value="{{ lastname }}" />
+  <input type="hidden" name="email" value="{{ email }}" />
+  <input type="hidden" name="phone" value="{{ telephone }}" />
+  <input type="hidden" name="amount" value="{{ amount }}" />
+  <input type="hidden" name="payment_option" value="{{ payOption }}" />
+  <input type="hidden" name="currency" value="{{ currency }}" />
+  <input type="hidden" name="return_url" value="{{ returnUrl }}" />
+  <input type="hidden" name="cancel_url" value="{{ cancelUrl }}" />
+  <input type="hidden" name="continue_success_url" value="{{ successUrl }}" />
+  <input type="hidden" name="hash" value="{{ secureHash }}" />
+  <div class="buttons">
+    <div class="pull-right">
+      <input type="submit" value="{{ button_confirm }}" class="btn btn-primary" />
+    </div>
+  </div>
+</form>
